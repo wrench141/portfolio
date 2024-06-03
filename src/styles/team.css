@@ -44,7 +44,7 @@
 .tmcont .ztop{
     font-family: "Public Sans";
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(80vh - 100px);
     padding: 30px 100px;
     position: relative;
     z-index: 4;
@@ -68,14 +68,14 @@
 .tmcont .ztop::after{
     width: 100%;
     height: calc(100%);
-    /* background-color: black; */
+    background-color: black;
     position: absolute;
     top: 0;
     left: 0;
     content: "";
     z-index: 5;
-    /* animation: fade 2s ease forwards; */
-    /* animation-delay: 2s; */
+    animation: fade 2s ease forwards;
+    animation-delay: 2s;
 }
 
 @keyframes fade {
